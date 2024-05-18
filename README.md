@@ -13,3 +13,5 @@ Next, the frequency spectrum in decibels is checked for outliers within or just 
 Poles are subsequently added starting from extremities of the passband, increasing in radius, and moving in towards the centre of the passband until the previously found outlier frequency is solved. This process continues until there no more frequencies in the passband that need to be fixed or the alogirithm under its limitation can no longer fix the outlier frequencies.
 
 At the end of the process the program outputs the poles, zeroes and gain coefficient required to create the digital signal filter it designed. 
+
+# Possible Improvements and Moving Forwards
