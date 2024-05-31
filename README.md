@@ -42,4 +42,5 @@ At the end of the process the program outputs the poles, zeroes and gain coeffic
 # Possible Improvements and Moving Forwards
 
 + Investigate possibility of resolving inconsistencies in the passband by adding zeroes
-+ Write code in c that can use the output of the python script to construct functinoal digital filter following CCOS structure
++ Modify c script so to take real time readings from an arduino or other source of information, may require migrating to c++ 
+  
