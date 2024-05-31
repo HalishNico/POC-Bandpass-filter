@@ -39,6 +39,16 @@ Poles are subsequently added starting from extremities of the passband, increasi
 
 At the end of the process the program outputs the poles, zeroes and gain coefficient required to create the digital signal filter it designed. 
 
+# CSOS script in C
+
+The C script for the filter takes as an input the total poles and zeroes required to make the specified filter and using linked lists, constructs the total filter by cascading Combinations of Second Order Systems, CSOS for short. A block diagram of a CSOS is shown below where the $ z^{-1}$ terms are buffers which hold one value at a time, which are flushed out when the next value comes in.  
+
+
+<p align="center">
+  <img src="https://www.dsprelated.com/josimages_new/filters/img1141.png">
+</p>
+
+
 # Possible Improvements and Moving Forwards
 
 + Investigate possibility of resolving inconsistencies in the passband by adding zeroes
